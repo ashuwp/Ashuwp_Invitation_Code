@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ashuwp\n"
+"POT-Creation-Date: 2017-05-24 23:25+0800\n"
+"PO-Revision-Date: 2017-05-24 23:26+0800\n"
+"Last-Translator: \n"
+"Language-Team: admin@ashuwp.com <admin@ashuwp.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:12 includes/invitation_code_login.php:7
+#: includes/invitation_code_login.php:77
+msgid "Invitation Code"
+msgstr "邀请码"
+
+#: admin/admin.php:13 admin/admin.php:42 admin/admin.php:196
+#: admin/admin.php:277 tinymce/insert_invitation_code.php:50
+#: tinymce/insert_invitation_code.php:159
+msgid "Invitation Codes"
+msgstr "邀请码"
+
+#: admin/admin.php:43 tinymce/insert_invitation_code.php:51
+#: tinymce/insert_invitation_code.php:160
+msgid "Counter(Max/Used)"
+msgstr "统计(最大使用数/已用)"
+
+#: admin/admin.php:44
+msgid "User(s)"
+msgstr "用户"
+
+#: admin/admin.php:45 tinymce/insert_invitation_code.php:52
+#: tinymce/insert_invitation_code.php:161
+msgid "Expiration Time"
+msgstr "过期时间"
+
+#: admin/admin.php:46
+msgid "Status"
+msgstr "状态"
+
+#: admin/admin.php:47
+msgid "Actions"
+msgstr "操作"
+
+#: admin/admin.php:100 admin/admin.php:309
+msgid "Available"
+msgstr "可用"
+
+#: admin/admin.php:103 admin/admin.php:310
+msgid "Disabled"
+msgstr "已禁用"
+
+#: admin/admin.php:106 admin/admin.php:311
+msgid "Use Up"
+msgstr "用完"
+
+#: admin/admin.php:109 admin/admin.php:312
+msgid "Expired"
+msgstr "过期"
+
+#: admin/admin.php:116
+msgid "Delete"
+msgstr "删除"
+
+#: admin/admin.php:118
+msgid "Active"
+msgstr "启用"
+
+#: admin/admin.php:121
+msgid "Disable"
+msgstr "禁用"
+
+#: admin/admin.php:198 admin/admin.php:278 admin/admin.php:388
+msgid "Add New"
+msgstr "添加"
+
+#: admin/admin.php:281
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr " &#8220;%s&#8221; 的搜索结果"
+
+#: admin/admin.php:289
+msgid "Success"
+msgstr "操作成功"
+
+#: admin/admin.php:293
+msgid "Failed"
+msgstr "操作失败"
+
+#: admin/admin.php:308
+msgid "All"
+msgstr "全部"
+
+#: admin/admin.php:316
+msgid "Search invitation code:"
+msgstr "搜索"
+
+#: admin/admin.php:318 tinymce/insert_invitation_code.php:43
+#: tinymce/insert_invitation_code.php:45 tinymce/insert_invitation_code.php:152
+#: tinymce/insert_invitation_code.php:154
+msgid "Search"
+msgstr "搜索"
+
+#: admin/admin.php:394
+msgid "Success. The code below has added."
+msgstr "恭喜，成功添加下列邀请码："
+
+#: admin/admin.php:416
+msgid "Prefix(optional)"
+msgstr "前缀(可选)"
+
+#: admin/admin.php:422
+msgid "Length"
+msgstr "长度"
+
+#: admin/admin.php:425
+msgid "Excluding prefix, Default:8"
+msgstr "前缀不计算在内"
+
+#: admin/admin.php:429
+msgid "Number"
+msgstr "数量"
+
+#: admin/admin.php:432
+msgid "Code number of generate, Default:1"
+msgstr "生成的邀请码数量，默认1"
+
+#: admin/admin.php:436
+msgid "Use limit"
+msgstr "使用次数限制"
+
+#: admin/admin.php:439
+msgid "How many time this code can be used."
+msgstr "邀请码使用次数限制"
+
+#: admin/admin.php:443
+msgid "Expiration Date"
+msgstr "过期时间"
+
+#: admin/admin.php:446
+msgid "Optional, Format: YYYY-MM-DD H:i"
+msgstr "可选，格式：YYYY-MM-DD H:i"
+
+#: includes/invitation_code_login.php:20 includes/invitation_code_login.php:144
+msgid "<strong>ERROR</strong>: Enter a invitation code."
+msgstr "<strong>错误</strong>: 请输入一个邀请码。"
+
+#: includes/invitation_code_login.php:29 includes/invitation_code_login.php:153
+msgid "<strong>ERROR</strong>: Wrong Invitation Code."
+msgstr "<strong>错误</strong>: 错误的邀请码。"
+
+#: includes/invitation_code_login.php:34 includes/invitation_code_login.php:158
+msgid "<strong>ERROR</strong>: Invalid Invitation Code."
+msgstr "<strong>错误</strong>: 不可用的邀请码。"
+
+#: includes/invitation_code_login.php:39 includes/invitation_code_login.php:163
+msgid "<strong>ERROR</strong>: This Invitation Code is over."
+msgstr "<strong>错误</strong>: 邀请码使用次数超限。"
+
+#: includes/invitation_code_login.php:44 includes/invitation_code_login.php:168
+msgid "<strong>ERROR</strong>: This Invitation Code is expired."
+msgstr "<strong>错误</strong>: 邀请码已经过期。"
+
+#: includes/invitation_code_login.php:77
+msgid "(required)"
+msgstr "(必填)"
+
+#: includes/invitation_code_login.php:94
+msgid "Enter a invitation code."
+msgstr "请输入一个邀请码"
+
+#: includes/invitation_code_login.php:103
+msgid "Wrong Invitation Code."
+msgstr "错误的邀请码。"
+
+#: includes/invitation_code_login.php:108
+msgid "Invalid Invitation Code."
+msgstr "不可用的邀请码。"
+
+#: includes/invitation_code_login.php:113
+msgid "This Invitation Code is over."
+msgstr "邀请码使用次数超限。"
+
+#: includes/invitation_code_login.php:118
+msgid "This Invitation Code is expired."
+msgstr "邀请码已过期"
+
+#: includes/invitation_code_login.php:129
+msgid "Invitation Code:"
+msgstr "邀请码:"
+
+#: includes/invitation_code_login.php:135
+msgid "(Must be input.)"
+msgstr "（必填）"
+
+#: tinymce/insert_invitation_code.php:35
+msgid "Insert A Invitation Code"
+msgstr "插入一个邀请码"
+
+#: tinymce/insert_invitation_code.php:109
+msgid "Cancel"
+msgstr "取消"
+
+#: tinymce/insert_invitation_code.php:110
+msgid "Insert"
+msgstr "插入"
+
+#~ msgid "Optional"
+#~ msgstr "可选，格式 YYYY-MM-DD H:i"
